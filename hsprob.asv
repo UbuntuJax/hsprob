@@ -1,0 +1,29 @@
+DECKSIZE = 30;
+PRINCE_DECKSIZE = 40;
+
+function probability = hsprob(deckSize, turnNo, cardNo, testNo, coin)
+    
+
+    
+    probability = 1;
+    varType = class(deckSize);
+    fprintf("%s\n", varType);
+    
+    %check args are all present
+    
+    
+    %check that args are of type double
+    
+    %apply relevant arg values
+    
+    %perform computation
+    %Mulligan
+    mulliganDoubleArray = double.empty(5,1);
+    disp(mulliganDoubleArray);
+    
+    %Reset Mulligan
+    %Draw Probability
+    
+    
+    
+end
